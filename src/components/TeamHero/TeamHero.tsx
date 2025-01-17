@@ -6,8 +6,8 @@ import TeamHeroCont from '../TeamHeroCont/TeamHeroCont'
 function TeamHero() {
   return (
     <section className={`${poppins.className} py-10 flex flex-col items-center`}>
-    //   <TeamHeroCont />
-    //   <TeamHeroImg/>
+       <TeamHeroCont />
+      <TeamHeroImg/>
     </section>
   )
 }
